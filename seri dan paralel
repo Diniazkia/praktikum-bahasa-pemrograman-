@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+//TUGAS PRAKTIKUM BAHASA PEMROGRAMAN 17 JUNI 2020
+
+int hambatan_seri ( int R1, int R2 , int R3 ){
+	return R1 + R2 + R3 ;
+}
+float hambatan_paralel ( float R1 , float R2 , float R3 ) {
+	return 1/R1 + 1/R2 + 1/R3 ;
+}
+
+int main (){
+	cout << " Nama : DINI AZKIA " << endl;
+	cout << " NIM : ETE10190094 " << endl;
+	cout << " PRODI : TEKNIK ELEKTROMEDIK " << endl;
+	cout << "============================= " << endl;
+
+	cout << " Hasil hambatan seri adalah " << endl;
+	cout << hambatan_seri ( 20 , 60 , 30) << endl;	
+	cout << " Hasil hambatan paralel adalah " << endl;
+	cout << hambatan_paralel ( 60 , 30 , 20);
+}
